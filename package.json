@@ -1,0 +1,31 @@
+{
+  "name": "client",
+  "version": "0.0.1",
+  "description": "Schtandart Dealer Mobile Client",
+  "productName": "Schtandart Dealer App",
+  "cordovaId": "com.schtandart.dealer",
+  "capacitorId": "",
+  "author": "Schtandart IT Division",
+  "private": true,
+  "scripts": {
+    "test": "echo \"No test specified\" && exit 0"
+  },
+  "dependencies": {
+    "@quasar/extras": "^1.3.3",
+    "axios": "^0.18.1",
+    "makerjs": "^0.17.0",
+    "quasar": "^1.5.9",
+    "vue-router": "^3.1.3"
+  },
+  "devDependencies": {
+    "@quasar/app": "^1.4.1"
+  },
+  "engines": {
+    "node": ">= 8.9.0",
+    "npm": ">= 5.6.0",
+    "yarn": ">= 1.6.0"
+  },
+  "browserslist": [
+    "last 1 version, not dead, ie >= 11"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "background_color": "#FFF",
+  "display": "standalone",
+  "name": "Schtandart Dealer App",
+  "short_name": "Schtandart Dealer App",
+  "version": "com.schtandart.dealer",
+  "description": "Schtandart Dealer Mobile Client",
+  "author": "Schtandart IT Division",
+  "icons": [],
+  "start_url": "index.html"
+}
