@@ -18,6 +18,9 @@
     },
     "cordova-plugin-fullscreen": {
       "PACKAGE_NAME": "com.schtandart.dealer"
+    },
+    "cordova-plugin-statusbar": {
+      "PACKAGE_NAME": "com.schtandart.dealer"
     }
   },
   "dependent_plugins": {}

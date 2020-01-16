@@ -39,7 +39,7 @@ function onDeviceReady() {
   //alert("OneSignal has been initialized");
   // Enable to debug issues.
   // window.plugins.OneSignal.setLogLevel({logLevel: 4, visualLevel: 4});
-
+  StatusBar.hide();
   var notificationOpenedCallback = function(jsonData) {
     console.log("notificationOpenedCallback: " + JSON.stringify(jsonData));
   };

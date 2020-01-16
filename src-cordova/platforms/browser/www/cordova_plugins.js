@@ -29,6 +29,20 @@ module.exports = [
         "clobbers": [
             "AndroidFullScreen"
         ]
+    },
+    {
+        "file": "plugins/cordova-plugin-statusbar/www/statusbar.js",
+        "id": "cordova-plugin-statusbar.statusbar",
+        "pluginId": "cordova-plugin-statusbar",
+        "clobbers": [
+            "window.StatusBar"
+        ]
+    },
+    {
+        "file": "plugins/cordova-plugin-statusbar/src/browser/StatusBarProxy.js",
+        "id": "cordova-plugin-statusbar.StatusBarProxy",
+        "pluginId": "cordova-plugin-statusbar",
+        "runs": true
     }
 ];
 module.exports.metadata = 
@@ -37,7 +51,8 @@ module.exports.metadata =
     "cordova-plugin-whitelist": "1.3.4",
     "onesignal-cordova-plugin": "2.8.1",
     "cordova-plugin-battery-status": "2.0.3",
-    "cordova-plugin-fullscreen": "1.1.0"
+    "cordova-plugin-fullscreen": "1.1.0",
+    "cordova-plugin-statusbar": "2.4.3"
 }
 // BOTTOM OF METADATA
 });
