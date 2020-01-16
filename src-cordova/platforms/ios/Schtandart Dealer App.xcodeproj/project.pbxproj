@@ -16,6 +16,7 @@
 		2389FC913488445C97C902C3 /* OneSignalPush.m in Sources */ = {isa = PBXBuildFile; fileRef = 371E5DECC2B54D43A05D55F7 /* OneSignalPush.m */; };
 		BB5C0BA231894B95A67342A6 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50D25633EE404E0CB54BDC8B /* SystemConfiguration.framework */; };
 		E26BA6C2B41247EEAC999652 /* CDVBattery.m in Sources */ = {isa = PBXBuildFile; fileRef = 78BF307B91E44B77BDDFB19F /* CDVBattery.m */; };
+		E9FDA4F5F66C4A30A7842F06 /* CDVStatusBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E49F22AF3D747889C018779 /* CDVStatusBar.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +69,8 @@
 		50D25633EE404E0CB54BDC8B /* SystemConfiguration.framework */ = {isa = PBXFileReference; name = "SystemConfiguration.framework"; path = "System/Library/Frameworks/SystemConfiguration.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
 		78BF307B91E44B77BDDFB19F /* CDVBattery.m */ = {isa = PBXFileReference; name = "CDVBattery.m"; path = "cordova-plugin-battery-status/CDVBattery.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
 		C628F49CDB5D41F3866A62F8 /* CDVBattery.h */ = {isa = PBXFileReference; name = "CDVBattery.h"; path = "cordova-plugin-battery-status/CDVBattery.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		9E49F22AF3D747889C018779 /* CDVStatusBar.m */ = {isa = PBXFileReference; name = "CDVStatusBar.m"; path = "cordova-plugin-statusbar/CDVStatusBar.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		07D7338EDA6B411BAF6337BA /* CDVStatusBar.h */ = {isa = PBXFileReference; name = "CDVStatusBar.h"; path = "cordova-plugin-statusbar/CDVStatusBar.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -178,6 +181,8 @@
 				AC53357B86AC40B697B1D2E2 /* OneSignalPush.h */,
 				78BF307B91E44B77BDDFB19F /* CDVBattery.m */,
 				C628F49CDB5D41F3866A62F8 /* CDVBattery.h */,
+				9E49F22AF3D747889C018779 /* CDVStatusBar.m */,
+				07D7338EDA6B411BAF6337BA /* CDVStatusBar.h */,
 			);
 			name = Plugins;
 			path = "Schtandart Dealer App/Plugins";
@@ -304,6 +309,7 @@
 				302D95F114D2391D003F00A1 /* MainViewController.m in Sources */,
 				2389FC913488445C97C902C3 /* OneSignalPush.m in Sources */,
 				E26BA6C2B41247EEAC999652 /* CDVBattery.m in Sources */,
+				E9FDA4F5F66C4A30A7842F06 /* CDVStatusBar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
